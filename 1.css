@@ -1,0 +1,506 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gmarket Sans";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gmarket Sans";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #5B2386;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gmarket Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.logo img {
+    width: 564px;
+    height: 285px;
+}
+
+.practice {
+    font-family: 'OTEnjoystoriesBA', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    max-width: 486px;
+    margin: 52px auto 0;
+    color: #F5DF4D;
+}
+
+.def {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 485px;
+    margin: 80px auto 0;
+}
+
+.quote {
+    width: 36px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.text1 {
+    font-family: 'Gmarket Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.text1 strong {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto 0;
+    gap: 20px;
+    width: 100%;
+}
+
+.text2, .text3 {
+    font-family: 'Gmarket Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+input {
+    width: 228px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Gmarket Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+::placeholder {
+    color: #BABCBE;
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 567px;
+    height: 64px;
+    border-radius: 12px;
+    color: #5B2386;
+    font-family: 'Gmarket Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #FCEE21;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button_img {
+    width: 64px;
+    height: 72px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 663px;
+    margin: 142px auto 0;
+}
+
+.date_text {
+    font-family: 'Gmarket Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.date_text strong {
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.date_button_group {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 24px;
+}
+
+.date_button1 {
+    width: 365px;
+    height: 64px;
+    border-radius: 12px;
+    color: #5B2386;
+    font-family: 'Gmarket Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #FCEE21;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.date_button2 {
+    width: 193px;
+    height: 64px;
+    border-radius: 12px;
+    color: #5B2386;
+    font-family: 'Gmarket Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: 100px auto;
+    padding: 60px 0;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.cheer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.cheer1 {
+    font-family: 'OTEnjoystoriesBA', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #5B2386;
+    margin: 0;
+    text-align: center;
+}
+
+.cheer2 {
+    font-family: 'OTEnjoystoriesBA', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #5B2386;
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+aside img {
+    width: 438px;
+    height: 342px;
+    margin: 40px 0;
+}
+
+aside button {
+    width: 508px;
+    height: 64px;
+    border-radius: 12px;
+    color: #5B2386;
+    font-family: 'Gmarket Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #FCEE21;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 0 106px;
+    width: 100%;
+}
+
+footer img {
+    width: 168px;
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.footer_message {
+    font-family: 'Pretendard-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+    
+    .logo {
+        margin-top: 60px;
+    }
+    
+    .logo img {
+        width: 267px;
+        height: auto;
+    }
+    
+    .practice {
+        font-size: 22px;
+        margin: 31px auto 0;
+        max-width: 330px;
+    }
+    
+    .def {
+        margin: 31px auto 0;
+        max-width: 330px;
+        gap: 10px;
+    }
+    
+    .quote {
+        width: 22px;
+        height: 20px;
+    }
+    
+    .text1 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .text1 strong {
+        font-size: 14px;
+    }
+    
+    form {
+        margin: 64px auto 0;
+        gap: 27px;
+    }
+    
+    .text2, .text3 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    input {
+        width: 156px;
+        height: 37px;
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    
+    .click {
+        margin-top: 49px;
+    }
+    
+    .button {
+        width: 280px;
+        height: 56px;
+        font-size: 16px;
+    }
+    
+    .button_img {
+        width: 43px;
+        height: 49px;
+    }
+    
+    .date {
+        width: 100%;
+        margin: 64px auto 0;
+    }
+    
+    .date_text {
+        font-size: 14px;
+    }
+    
+    .date_text strong {
+        font-size: 24px;
+    }
+    
+    .date_button_group {
+        flex-direction: column;
+        margin-top: 49px;
+        gap: 16px;
+    }
+    
+    .date_button1, .date_button2 {
+        width: 256px;
+        height: 56px;
+        font-size: 16px;
+    }
+    
+    aside {
+        width: 90%;
+        max-width: 330px;
+        margin: 64px auto;
+        padding: 30px 0;
+    }
+    
+    .cheer1 {
+        font-size: 36px;
+    }
+    
+    .cheer2 {
+        font-size: 20px;
+    }
+    
+    aside img {
+        width: 219px;
+        height: auto;
+        margin: 20px 0;
+    }
+    
+    aside button {
+        width: 249px;
+        height: 56px;
+        font-size: 16px;
+    }
+    
+    footer {
+        margin: 64px 0 32px;
+    }
+    
+    footer img {
+        width: 91px;
+        height: auto;
+    }
+    
+    .footer_message {
+        font-size: 9px;
+    }
+    
+    .result-modal {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding: 40px 20px;
+        width: 80%;
+        max-width: 330px;
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+        display: none;
+    }
+    
+    .result-modal h2 {
+        font-family: 'OTEnjoystoriesBA', sans-serif;
+        color: #5B2386;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    
+    .result-modal p {
+        font-family: 'OTEnjoystoriesBA', sans-serif;
+        color: #5B2386;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .result-modal img {
+        width: 100px;
+        height: auto;
+        margin: 20px 0;
+    }
+    
+    .result-modal button {
+        width: 249px;
+        height: 56px;
+        border-radius: 12px;
+        color: #5B2386;
+        font-family: 'Gmarket Sans', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        background-color: #FCEE21;
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .logo img {
+        width: 220px;
+    }
+    
+    .button {
+        width: 240px;
+        font-size: 14px;
+    }
+    
+    input {
+        width: 120px;
+    }
+    
+    .date_button1, .date_button2 {
+        width: 220px;
+    }
+    
+    aside {
+        padding: 20px 0;
+    }
+    
+    aside button {
+        width: 220px;
+    }
+}
